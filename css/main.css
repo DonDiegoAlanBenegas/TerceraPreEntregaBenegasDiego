@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+body {
+  background-image: url(../img/backgrounds/back2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  color: deeppink;
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+
+p {
+  color: gray;
+  line-height: 2rem;
+  font-size: 1.8rem;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "nav" "header" "main" "footer";
+}
+
+#mainNav {
+  grid-area: nav;
+}
+
+#header {
+  grid-area: header;
+}
+
+#main {
+  grid-area: main;
+  text-align: center;
+}
+
+#aside {
+  background-color: rgba(238, 188, 247, 0.5);
+  padding: 20px 0;
+  grid-area: aside;
+  /* iconos de carritos y esas cosas que vos no usaste ...yet*/
+  display: flex;
+  flex-direction: column;
+}
+
+#footer {
+  grid-area: footer;
+}
+
+.botonera img {
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+.botonera ul {
+  display: flex;
+}
+
+.botonera ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.botonera ul li a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: deeppink;
+}
+
+.botonera ol li a:hover {
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  font-weight: 600;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+}
+
+main section p {
+  color: grey;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+
+.imgHeader {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+
+.img {
+  width: 500px;
+  height: 500px;
+}
+
+.imgTienda {
+  width: 200px;
+  height: 200px;
+}
+
+@media (min-width: 768px) {
+  .contenedor {
+    grid-template-columns: 30vw 70vw;
+    grid-template-areas: "nav nav" "header header" "main main" "footer footer";
+  }
+  #main .galeria {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #main .galeria figure {
+    width: 90%;
+  }
+  .botonera ul li a {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: deeppink;
+  }
+}
+@media (min-width: 1024px) {
+  .contenedor {
+    grid-template-columns: 30vw 60vw 10;
+    grid-template-areas: "nav nav nav" "header header header" "main main main" "footer footer footer";
+  }
+  #main .galeria {
+    display: flex;
+    flex-direction: row;
+  }
+  #main .galeria figure {
+    width: 80%;
+  }
+  .botonera {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .botonera img {
+    margin-bottom: 0;
+  }
+  .botonera ul li a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: deeppink;
+  }
+}
+@media (min-width: 1200px) {
+  #main .galeria {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #main .galeria figure {
+    width: 30%;
+  }
+  .botonera ul li a {
+    font-size: 3rem;
+    text-decoration: none;
+    color: deeppink;
+  }
+}
+@keyframes headerAnimation {
+  0% {
+    background-image: url(../img/header/a1.jpg);
+  }
+  20% {
+    background-image: url(../img/header/a2.jpg);
+  }
+  40% {
+    background-image: url(../img/header/a3.jpg);
+  }
+  60% {
+    background-image: url(../img/header/a4.jpg);
+  }
+  80% {
+    background-image: url(../img/header/a5.jpg);
+  }
+  100% {
+    background-image: url(../img/header/a6.jpg);
+  }
+}
+.bg-black {
+  color: black;
+}
+
+.bg-deeppink {
+  background-color: deeppink;
+}
+
+#botonera ul li a {
+  color: deeppink;
+  font-size: 3rem;
+}
+
+#botonera img {
+  width: 200px;
+}
+
+h1, h2, h3 {
+  color: deeppink;
+}
+
+#botonera svg {
+  fill: deeppink;
+}
+
+/*# sourceMappingURL=main.css.map */

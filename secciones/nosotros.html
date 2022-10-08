@@ -1,75 +1,171 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QuickFire Sitio Oficial</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- bootstrap css -->
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- mi css -->
+
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/style.css">
-</head>
 
-<body>    
-<div class="contenedor">
-    <nav class="botonera" id="mainNav">
-        <a href="../index.html">
-        <img class="logoMain" src="../img/logo.jpeg" alt="Logo de QuickFire">
+    <title>QUICKFIRE PAGINA OFICIAL</title>
+
+  </head>
+  <body>
+    <!-- inicia nav -->
+    <nav class="navbar navbar-expand-lg bg-black" id="botonera">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../img/logo.jpeg" alt="logo de quickfire">
         </a>
-        <ul>
-            <li>
-                <a href="../secciones/novedades.html">NOVEDADES</a>
-            </li>
-            <li>
-                <a href="../secciones/discografia.html">DISCOGRAFÍA</a>
-            </li>
-            <li>
-                <a href="../secciones/galeria.html">GALERÍA</a>
-            </li>
-            <li>
-                <a href="../secciones/nosotros.html">NOSOTROS</a>
-            </li>
-            <li>
-                <a href="../secciones/tienda.html">TIENDA</a>
-            </li>
-        </ul>
-    </nav>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <svg viewBox="0 0 100 80" width="40" height="40">
+                <rect width="100" height="20"></rect>
+                <rect y="30"width="100" height="20"></rect>
+                <rect y="60"width="100" height="20"></rect>
+            </svg>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../secciones/novedades.html">NOVEDADES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../secciones/discografia.html">DISCOGRAFIA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../secciones/galeria.html">GALERIA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../secciones/nosotros.html">NOSOTROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../secciones/tienda.html">TIENDA</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-    <header class="header" id="header">
+    <!-- cierra nav -->
+
+    <!-- inicia header carousel-->
+    <header id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
         <h1>NOSOTROS</h1>
-    </header>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../img/header/nh1.jpg" class="d-block w-100" alt="foto de quickfire">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/header/nh2.jpg" class="d-block w-100" alt="foto de quickfire">
+          </div>
+          <div class="carousel-item">
+            <img src="../img/header/nh3.jpg" class="d-block w-100" alt="foto de quickfire">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </header>
 
-    <main class="nosotros" id="main">
-        <section>
-            <article>
-                <h1>QUICKFIRE DEUS SOL INVICTUS 2010-2022</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum quidem dignissimos rem dolorem odio vero repellat obcaecati perspiciatis possimus nesciunt ipsam ullam quisquam accusantium at praesentium alias, perferendis architecto inventore.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias officia illum rem repellat dolor! Maiores libero magni vero ratione eum mollitia, recusandae aut amet nobis necessitatibus cum. Repellendus, sunt blanditiis!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet earum inventore error. Eveniet, earum ipsa inventore accusamus iure incidunt perspiciatis amet aliquid facere atque perferendis error vel ipsam! Beatae, id.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum quidem dignissimos rem dolorem odio vero repellat obcaecati perspiciatis possimus nesciunt ipsam ullam quisquam accusantium at praesentium alias, perferendis architecto inventore.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias officia illum rem repellat dolor! Maiores libero magni vero ratione eum mollitia, recusandae aut amet nobis necessitatibus cum. Repellendus, sunt blanditiis!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet earum inventore error. Eveniet, earum ipsa inventore accusamus iure incidunt perspiciatis amet aliquid facere atque perferendis error vel ipsam! Beatae, id.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum quidem dignissimos rem dolorem odio vero repellat obcaecati perspiciatis possimus nesciunt ipsam ullam quisquam accusantium at praesentium alias, perferendis architecto inventore.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias officia illum rem repellat dolor! Maiores libero magni vero ratione eum mollitia, recusandae aut amet nobis necessitatibus cum. Repellendus, sunt blanditiis!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet earum inventore error. Eveniet, earum ipsa inventore accusamus iure incidunt perspiciatis amet aliquid facere atque perferendis error vel ipsam! Beatae, id.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum quidem dignissimos rem dolorem odio vero repellat obcaecati perspiciatis possimus nesciunt ipsam ullam quisquam accusantium at praesentium alias, perferendis architecto inventore.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias officia illum rem repellat dolor! Maiores libero magni vero ratione eum mollitia, recusandae aut amet nobis necessitatibus cum. Repellendus, sunt blanditiis!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet earum inventore error. Eveniet, earum ipsa inventore accusamus iure incidunt perspiciatis amet aliquid facere atque perferendis error vel ipsam! Beatae, id.</p>
-            </article>
+    <!-- cierra header -->
+
+    <!-- inicia main -->
+    <main class="container-fluid" id="main">
+        <section class="py-3">
+            <h1>QUICKFIRE 2010-2022</h1>
+            <div class="column">
+                <article class="col-sm-12 col-md-12 col-lg-12">
+                    <h2>Historia de la banda</h2>
+                    <p>Saludos amigos del metal y compañeros thrashers lml lml
+                        ¡Somos QuickFire! una banda de thrash metal de Buenos Aires, Argentina.
+                        
+                        El pasado:
+                        
+                        La creación de 2 hermanos, Gustavo y Diego Benegas. QuickFire comenzó en 2010 influenciado por la vieja 
+                        guardia del metal de diferentes géneros, pero encontramos el recipiente perfecto para nuestra música en lo que 
+                        pronto se conocería como la nueva ola de thrash metal (o NWOTM). Tomando la velocidad de antaño combinada 
+                        con la alquimia de los diferentes estilos, la banda comenzó a forjar su propia comprensión del género y a 
+                        grabarlo para las masas.
+                        En noviembre de 2010 lanzamos nuestro demo "Time to Kill" y empezamos a hacer giras por pubs locales por 
+                        todo Buenos Aires haciéndonos un nombre mientras componíamos música para nuestro primer LP.
+                        En marzo de 2012 lanzamos nuestro primer álbum "Deus Sol Invictus" (en latín: "el dios sol invencible"), 
+                        para fines legales, se agregó el acrónimo DSI (deus sol invictus) al nombre y logotipo de la banda en la 
+                        gira posterior. El disco fue autoeditado (300 copias agotadas en shows lml), se hizo bastante popular en 
+                        las radios locales y logró que consiguiéramos entrevistas y spots en varias radios de Brasil, Uruguay, España, 
+                        Italia y USA. 
+                        Lamentablemente, la banda perdería al baterista Liyo después de que concluyera la gira debido a 
+                        problemas relacionados con el trabajo y poco después, el guitarrista principal Esteban se iría por razones similares.
+                        Para 2013, la banda reclutó a "Rocko" como el nuevo baterista y continuaron de gira mientras trabajaban en 
+                        las nuevas canciones que se lanzarían en "War, Philosophy, Death" de 2015 (el título era un claro homenaje 
+                        a "Blood Fire Death" de Bathory lml ). 
+                        Plagado de "problemas de producción", como ser expulsado de tu casa y trabajo :D, la banda aún logró superar 
+                        las adversidades y autoeditaron el álbum nuevamente con una amplia 
+                        aceptación del público en general y encabezando una gira en Argentina con bandas locales como teloneros. 
+                        Nuestro primer y único video fue hecho para promocionar el disco y la gira, la canción elegida fue 
+                        "Rising Hell" (adecuado).
+                        Esa sería la gira más larga y exitosa de la banda hasta la fecha ("Rising Hell Tour" 2015 - 2017) con más 
+                        de 50 fechas tocando junto a otros actos locales de thrash metal como Tungsteno, Criptofonia (RIP) y Serpentor 
+                        (y CASI tocando antes de Toxic Holocaust sobre lo que habría sido el mayor logro de la banda).
+                        En 2018, la economía argentina se disparó en los huevos haciendo que 
+                        el cambio de dólar pasara de 20 pesos = 1 dólar estadounidense a 85 pesos = 1 dólar estadounidense, así que... 
+                        la gira se suspendió, pero la banda comenzamos a componer lo que sería nuestro 3er álbum "Conqueror of the Void".
+                        En 2019, "Conqueror ..." fue grabado y autoeditado, vendiendo las 500 copias físicas en menos de 2 semanas. 
+                        A mediados de 2019 comenzó una gira para promocionar el álbum, pero como todos sabemos, a principios de 2020, 
+                        un virus "misterioso" iba a dar jaque mate a la economía mundial y el "camino de la ruta" 
+                        había terminado oficialmente... 
+                        
+                        El presente:
+
+                        Actualmente, la banda ha grabado y esta por editar su cuarto álbum "Fire of the Gods" y comenzando a 
+                        prestar atención a la gran ventaja de los servicios digitales para promover la música de la 
+                        banda y establecer con éxito nuestra marca de Metal lml.
+                        
+                        El futuro:
+                        
+                        ¡¡Nos convertiremos en Legión!! Una nueva Sepultura les cuento :D (sigan los sueños)
+                        Estaremos subiendo material como videos (sobre integrantes de la banda, álbumes, ensayos, equipos, 
+                        ojalá videos musicales completos), canciones y estaremos en contacto CONTIGO, el patrón de las artes, 
+                        el que puede tener la clave de nuestro ascensión y conquista mundial lml
+                        Así que a ti, amigo mío, te decimos... ¡¡Thrash hasta la muerte!!</p>
+                </article>
+            </div>
         </section>
     </main>
 
-    <footer class="pie" id="footer">
-        <h3 class="pie__titulo">Seguinos en las redes</h3>
-        <a href="https://www.facebook.com/QuickFireThrash" target="_blank">
-         <img src="../img/iconos/icons8-facebook-nuevo-100.png" alt="Seguinos en Facebook">
-        </a>
-        <a href="https://www.instagram.com/quickfirethrashmetal/" target="_blank">
-         <img src="../img/iconos/icons8-instagram-100.png" alt="Seguinos en Instagram">
-        </a>
-        <a href="https://www.youtube.com/QuickFireDeusSol" target="_blank">
-         <img src="../img/iconos/icons8-youtube-100.png" alt="Seguinos en YouTube">
-        </a>
-     </footer>
+    <!-- cierra main -->
 
-</body>
+    <!-- inicia footer -->
+    <footer class="py-3 text-center-bg-black text-white text-uppercase">
+        <h3>Seguinos en las redes</h3>
+        <a href="https://www.facebook.com/QuickFireThrash" target="_blank">
+            <img src="../img/iconos/icons8-facebook-nuevo-100.png" alt="Seguinos en Facebook">
+           </a>
+           <a href="https://www.instagram.com/quickfirethrashmetal/" target="_blank">
+            <img src="../img/iconos/icons8-instagram-100.png" alt="Seguinos en Instagram">
+           </a>
+           <a href="https://www.youtube.com/QuickFireDeusSol" target="_blank">
+            <img src="../img/iconos/icons8-youtube-100.png" alt="Seguinos en YouTube">
+           </a>
+    </footer>
+
+    <!-- cierra footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
 </html>
