@@ -1,7 +1,7 @@
 {
   "name": "diegobenegas",
   "version": "1.0.0",
-  "description": "Tercera Pre Entrega",
+  "description": "Entrega Final",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

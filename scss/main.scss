@@ -96,40 +96,40 @@ p{
 
     nav ul li a:hover{
         font-weight: 600;
-    } 
-    
+    }
+
     header{
         background-color: rgba(0, 0, 0, 0.9);
-    
+
     }
-    
+
     main{
         background-color: rgba(0, 0, 0, 0.9);
     }
-    
+
     footer{
         background-color: rgba(0, 0, 0, 0.9);
         text-align: center;
     }
-    
+
     main section p {
         color: grey;
         font-family: 'Roboto', sans-serif;
         font-size: 1.8rem;
         line-height: 2.2rem;
     }
-    
+
     .imgHeader{
         width: auto;
         height: auto;
         object-fit: cover;
     }
-    
+
     .img{
         width: 500px;
         height: 500px;
     }
-    
+
     .imgTienda{
         width: 200px;
         height: 200px;
@@ -138,7 +138,7 @@ p{
 @media (min-width: 768px) {
     .contenedor{
         grid-template-columns: 30vw 70vw;
-        grid-template-areas: 
+        grid-template-areas:
         "nav nav"
         "header header"
         "main main"
@@ -149,7 +149,7 @@ p{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        
+
     }
     #main .galeria figure{
         width: 90%;
@@ -164,8 +164,8 @@ p{
 
 @media (min-width: 1024px) {
     .contenedor{
-        grid-template-columns: 30vw 60vw 10; 
-        grid-template-areas: 
+        grid-template-columns: 30vw 60vw 10;
+        grid-template-areas:
         "nav nav nav"
         "header header header"
         "main main main"
@@ -175,7 +175,7 @@ p{
     #main .galeria{
         display: flex;
         flex-direction: row;
-        
+
     }
     #main .galeria figure{
         width: 80%;
